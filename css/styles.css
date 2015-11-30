@@ -1,0 +1,57 @@
+body {
+    padding-top: 80px;
+
+
+}
+
+.navbar {margin-bottom: 0px;
+        padding: 10px 15px;
+
+
+}
+
+.navbar img {
+    width: 20%;
+    height: 20%;
+    transition: all 0.5s;
+    
+}
+
+.cbp-af-header-shrink {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    opacity: 0.6;
+
+}
+
+.jumbotron {
+    background-image: url('/img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: auto;
+    
+}
+
+.glyphicon {
+    font-size: 75px;
+    text-align:center
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.col{
+background-color:#ffc;
+}
+.col-centered{
+padding-top: 80px;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
