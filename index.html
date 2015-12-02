@@ -39,6 +39,7 @@
   <body>
     <div class="navbar-wrapper">
       <div class="container">
+          <div id="home"></div>
 
         <nav class="navbar navbar-default navbar-fixed-top cbp-af-header" role="navigation">
   <div class="container-fluid">
@@ -80,10 +81,11 @@
     </div>
 <div class="container marketing">
 <div class=".container-fluid">
-        <h1 class="text-primary">Welcome</h1>
+        <h1 class="text-primary">Welcome2</h1>
         <p class="lead">MyFMS (‘My Fiscal Management Services’) is a web-based Fiscal Management Service available to clients who are approved for voucher services by a Regional Center. At this time, services primarily target clients funded for voucher transportation services by the San Diego Regional Center. Volunteer drivers log trips for client approval on the web interface. MyFMS reimburses the appropriate volunteer driver for travel expenses based on rates established by the San Diego Regional Center and approved by the California Department of Developmental Services.</p>
-            </div>
+            </div><br>
     <hr class="featurette-divider">
+    <br><br>
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
@@ -95,23 +97,37 @@
         <div class="col-lg-4">
           <span class="glyphicon glyphicon-user text-primary text-center center-block" aria-hidden="true"> </span>
           <h2 class="text-center">Sign In</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <div class="wrapper">
+    <form class="form-signin">       
+      <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+      <label class="checkbox">
+        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+    </form>
+  </div>
+         
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <span class="glyphicon glyphicon-thumbs-up text-primary text-center center-block" aria-hidden="true"> </span>
           <h2 class="text-center">First Time Here?</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <a href="#Enroll-Register"><h3 class="text-center">Enroll a Client</h3></a>
+            <a href="#Enroll-Register"><h3 class="text-center">Register as a Volunteer Driver</h3></a>
+            <a href="#contact"><h3 class="text-center">Other Visitor</h3></a>
+            <br><br>
+          
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
+     <div id="about-cis"></div>
     <div class="container">
+       
       <hr class="featurette-divider">
-
-      <div class="row featurette">
+<br>
+      <div class="row featurette"><br>
         <div class="col-md-7">
           <h2 class="featurette-heading text-primary">About<br> <span class="text-muted">Community Interface Services</span></h2>
-          <p class="lead"> For over 30 years Community Interface has served children and adults with developmental disabilities in San Diego County and beyond.  The agency was founded on the principle that people with developmental disabilities are in the best position to determine how they want to live. We provide services to people with intellectual disabilities, cerebral palsy, autism, seizure disorder and other similar conditions. </p>
+          <p class="lead"> For over 30 years <a href="http://www.communityinterfaceservices.org" target="_blank">Community Interface Services</a> has served children and adults with developmental disabilities in San Diego County and beyond.  The agency was founded on the principle that people with developmental disabilities are in the best position to determine how they want to live. We provide services to people with intellectual disabilities, cerebral palsy, autism, seizure disorder and other similar conditions. </p>
              <p class="lead"> In addition to Fiscal Management Services, we offer support by providing Community Living, Vocational, Social Support, Housing, and Respite Services In natural, inclusive settings such as a person’s home or worksite and other community locations and by respecting and encouraging individual choice in self/participant directed services.
 Department of Developmental Services.Community Interface Services is excited to provide MyFMS!</p>
         </div>
@@ -119,12 +135,51 @@ Department of Developmental Services.Community Interface Services is excited to 
           <img class="featurette-image displayed img-circle img-responsive" src="../../img/cis-bldg500x375.jpg" alt="CIS building at night">
         </div>
       </div>
-
+ <hr class="featurette-divider">
+        <div id="Enroll-Register"></div>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+         <h2 class="featurette-heading text-primary text-center">Enroll or Register  </h2><br><br>
+        <div class="col-lg-6">
+          <span class="glyphicon glyphicon-user text-primary text-center center-block" aria-hidden="true"> </span>
+          <h3 class="text-center">Enroll a Client</h3>
+          <div class="wrapper">
+    <form class="form-signin">       
+      <input type="text" class="form-control" name="Client First Name*" placeholder="Client First Name*" required="" autofocus="" />
+      <input type="text" class="form-control" name="Client Last Name*" placeholder="Client Last Name*" required=""/>  
+        <input type="text" class="form-control" name="Invitation Code*" placeholder="Invitation Code*" required=""/>      
+     
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>   
+    </form>
+  </div>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6">
+          <span class="glyphicon glyphicon-road text-primary text-center center-block" aria-hidden="true"> </span>
+          <h3 class="text-center">Register as a Volunteer Driver</h3>
+        <div class="wrapper">
+    <form class="form-signin">       
+      <input type="text" class="form-control" name="Driver First Name*" placeholder="Driver First Name*" required="" autofocus="" />
+      <input type="text" class="form-control" name="Driver Last Name*" placeholder="Driver Last Name*" required=""/>  
+        <input type="text" class="form-control" name="Invitation Code*" placeholder="Invitation Code*" required=""/>      
+     
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>    
+    </form>
+  </div>
+            <br><br>
+          
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+     
+    <div class="container">
+       
+      <hr class="featurette-divider">
       <hr class="featurette-divider">
 
       <div class="row featurette">
+          <br><br>
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading text-primary">Support is available! <br> <span class="text-muted">We're here to  help. </span></h2>
+          <h2 class="featurette-heading text-primary">Support is available! </h2> <h3><span class="text-muted">We're here to  help. </span></h3>
           <p class="lead">We want to make the sign up process as easy as possible and help you along with any issues that come up. In addition to Fiscal Management Services, we offer support by providing Community Living, Vocational, Social Support, Housing, and Respite Services In natural, inclusive settings such as a person’s home or worksite and other community locations and by respecting and encouraging individual choice in self/participant directed services.
 Department of Developmental Services.Community Interface Services is excited to provide MyFMS!<br> </p>
             <p class="lead">You can reach us by phone at <strong>555.555.5555 </strong><br>
@@ -164,7 +219,23 @@ It is nice to track your trips with just one click. MyFMS.org is fast and easy t
      </div> 
 
      </div>
-       <hr> 
+        <div id="contact"></div>
+        <br><br/>
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading text-primary">Contact<br> <span class="text-muted">Community Interface Services</span></h2>
+          <p class="lead"> For over 30 years Community Interface has served children and adults with developmental disabilities in San Diego County and beyond.  The agency was founded on the principle that people with developmental disabilities are in the best position to determine how they want to live. We provide services to people with intellectual disabilities, cerebral palsy, autism, seizure disorder and other similar conditions. </p>
+             <p class="lead"> In addition to Fiscal Management Services, we offer support by providing Community Living, Vocational, Social Support, Housing, and Respite Services In natural, inclusive settings such as a person’s home or worksite and other community locations and by respecting and encouraging individual choice in self/participant directed services.
+Department of Developmental Services.Community Interface Services is excited to provide MyFMS!</p>
+        </div>
+        <div class="col-md-5 col-centered">
+          <img class="featurette-image displayed img-circle img-responsive" src="../../img/cis-bldg500x375.jpg" alt="CIS building at night">
+        </div>
+      </div>
+<br><br/>
+      <hr class="featurette-divider">
 
 
      
